@@ -6,10 +6,10 @@ var config = {
   // - Your app's id on moneypot.com
   app_id: 536,                             // <----------------------------- EDIT ME!
   // - Displayed in the navbar
-  app_name: 'Goldkey0070,
+  app_name: 'GoldkeyDice,
   // - For your faucet to work, you must register your site at Recaptcha
   // - https://www.google.com/recaptcha/intro/index.html
-  recaptcha_sitekey: '6LfI_QUTAAAAACrjjuzmLw0Cjx9uABxb8uguLbph',  // <----- EDIT ME!
+  recaptcha_sitekey: '6LfFQwsTAAAAAHrP92oHwvnTwhHB4_p2eixdL_xd',  // <----- EDIT ME!
   redirect_uri: 'https://goldkey0070.github.io',
   mp_browser_uri: 'https://www.moneypot.com',
   mp_api_uri: 'https://api.moneypot.com',
@@ -21,7 +21,7 @@ var config = {
   force_https_redirect: !isRunningLocally(),
   // - Configure the house edge (default is 1%)
   //   Must be between 0.0 (0%) and 1.0 (100%)
-  house_edge: 0.01,
+  house_edge: 0.05,
   chat_buffer_size: 250,
   // - The amount of bets to show on screen in each tab
   bet_buffer_size: 25
